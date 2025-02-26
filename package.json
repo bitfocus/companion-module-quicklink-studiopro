@@ -1,0 +1,22 @@
+{
+	"name": "ql-studiopro",
+	"version": "3.5.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"format": "prettier -w ."
+	},
+	"license": "MIT",
+	"dependencies": {
+		"@companion-module/base": "~1.8.0",
+		"obs-websocket-js": "5.0.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Quicklink-Video-Over-IP-Solutions/StudioPro.git"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^1.5.0"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json"
+}

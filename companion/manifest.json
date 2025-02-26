@@ -1,0 +1,30 @@
+{
+	"id": "StudioPro",
+	"name": "StudioPro",
+	"shortname": "StudioPro",
+	"description": "Control StudioPro using the websocket plugin",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/Quicklink-Video-Over-IP-Solutions/StudioPro.git",
+	"bugs": "https://github.com/Quicklink-Video-Over-IP-Solutions/StudioPro.git",
+	"maintainers": [
+		{
+			"name": "Luke Griffiths",
+			"email": "luke.griffiths@quicklink.tv"
+		},
+		{
+			"name": "Jake Edwards",
+			"email": "jake.edwards@quicklink.tv"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../index.js"
+	},
+	"manufacturer": "QuickLink",
+	"products": ["StudioPro"],
+	"keywords": ["Stream"]
+}
